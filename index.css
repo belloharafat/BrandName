@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(12, 12, 65, 0.947);
+}
+.toper{
+    width: 100%;
+    height: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.header{
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.links{
+    display: flex;
+    
+}
+.links div a{
+    color: white;
+    text-decoration: none; 
+    font-size: xx-small;
+}
+.links  div a:hover{
+   border-bottom: 1px solid skyblue;
+}
+.links div{
+    margin-right: 15px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 150px;
+}
+.speciallist{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+}
+.speciallist div a{
+    color: white;
+    text-decoration: none;
+}
+
+.greeting{
+    color: skyblue;
+    font-size: small;
+}
+.about{
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.product{
+    text-align: center;
+    margin-top: 100px;
+}
+.objects{
+    color: white;
+    margin-top: 20px;
+}
+.butt button{
+    background-color: skyblue;
+    border: none;
+    margin-right: 5px;
+    padding: 10px;
+    color: white;
+}
+.klick{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.more button{
+    padding: 10px 30px;
+    background-color: rgba(12, 12, 65, 0.947);
+    color: skyblue;
+  border: 1px solid skyblue;
+}
+.more button:hover{
+    background-color: skyblue;
+    color: white;
+}
+
+.face{
+    font-weight: bolder;
+    color: red;
+}
+.face div{
+    text-align: center;
+}
+
+.log{
+    margin-right: 20px;
+}
+.under-list button{
+    border: none;
+    background-color: skyblue;
+    margin-right: 5px;
+    padding: 7px 20px;
+    color: white;
+
+}
+.cont2{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+.con1,.con2,.con3{
+    width: 25%;
+    background-color: white;
+    padding:50px 30px ;
+}
+.con1:hover{
+    background-color: skyblue;
+    color: white;
+}
+.con2:hover{
+    background-color: skyblue;
+    color: white;
+}
+.con3:hover{
+    background-color: skyblue;
+    color: white;
+}
+.con1 h4{
+    margin: 15px 0px;
+}
+.con2 h4{
+    margin: 15px 0px;
+}
+.con3 h4{
+    margin: 15px 0px;
+}
+@media (max-width:900px){
+.con1,.con2,.con3{
+    width: 60%;
+    margin-top: 15px;}
+
+    .cont2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    padding: 0 0 ;
+}
+}
+
+@media (max-width:600px){
+.navbar{
+padding: 20px;
+display: flex;
+flex-wrap: wrap;
+text-align: center;
+}
+.links{
+    width: 100%;
+    margin: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.speciallist{
+    width: 100%;
+   display: flex;
+   justify-content: center;
+}
+.header{
+    width: 100%;
+    font-size: 25px;
+}
+.links div{
+    margin-right: 0;
+}
+.links div a{
+font-size:15px;
+}
+.product{
+    margin-top: 30px;
+}
+.greeting{
+    font-size: 25px;
+
+}
+.about{
+    font-size: 19px;
+
+}
+.cont2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 0 ;
+}
+.con1,.con2,.con3{
+    width: 90%;
+    margin-top: 15px;
+}
+
+}
+
